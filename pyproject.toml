@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "home work 20"
+version = "0.1.0"
+description = ""
+authors = ["Andrew2797 <andrijgolub27@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
