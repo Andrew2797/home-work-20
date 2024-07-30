@@ -29,7 +29,7 @@ def exit(
     pets: list,
     log: list,
     employees: dict,
-    pets_sold: list,
+    healed_pets: list,
     using_commands: dict,
     reviews: list) -> None:
 
