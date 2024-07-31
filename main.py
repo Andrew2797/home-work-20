@@ -123,3 +123,4 @@ def main():
         if not command:
             log.append(f"Користувач '{login}' увійшов у систему: {datetime.now()}")
             input("\nПароль введено вірно. Вітаємо нашій інформаційній системі.\n")
+            

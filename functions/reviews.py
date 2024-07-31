@@ -15,3 +15,4 @@ def find_dublicate_char(reviews: list[str]) -> None:
                 repeated_groups.add(reviews[i:j])
 
     print(f"Групи символів, які повторюються не менше двох разів у відгуках:\n{repeated_groups}\n")
+    

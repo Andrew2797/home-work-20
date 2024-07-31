@@ -33,3 +33,4 @@ def save_using_commands(using_commands: dict) -> None:
 def save_reviews(reviews: list) -> None:
     with open(list_files.REVIEWS, "w", encoding="utf-8") as fh:
         json.dump(reviews, fh, indent=4)
+        

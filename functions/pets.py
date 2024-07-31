@@ -92,3 +92,4 @@ def show_history(healed_pets: list) -> None:
 def palindrome(pets: list) -> None:
     palin_pets = [pet for pet in pets if pet.lower() == pet[::-1].lower()]
     print(f"\nУ списку з тваринок є такі слова-паліндроми: {palin_pets}\n")
+    

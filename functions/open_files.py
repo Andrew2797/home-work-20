@@ -48,3 +48,4 @@ if not os.path.exists(list_files.REVIEWS):
 
 with open(list_files.REVIEWS, "r", encoding="utf-8") as fh:
     reviews = json.load(fh)
+    
